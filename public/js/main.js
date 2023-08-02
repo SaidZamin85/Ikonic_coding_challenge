@@ -6,7 +6,7 @@ var takeAmount = 10;
 
 //common route for all get data
 function getRequests(mode) {
-  // $("#load_more_btn_parent").text("Load More");
+  $("#load_more_btn").text("Load More"); 
   ajax('requests/'+mode, 'GET', undefined);
 }
 
